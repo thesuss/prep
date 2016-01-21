@@ -7,10 +7,10 @@ my_group.push person_1
 my_group.push person_2
 my_group.push person_3
 
-#my_group.each do |name, sex, age|
-#  puts "#{my_group.strings_at([:namn])} is a #{person_1[:age]} years old #{person_1[:sex]}"
-#end
-
-my_group.each do |name|
-  puts "Hello #{key}"
+my_group.each do |name, sex, age|
+  puts "#{my_group.string([:namn])} is a #{person_1[:age]} years old #{person_1[:sex]}"
 end
+
+#my_group.each do |name|
+#  puts "Hello #{key}"
+#end
