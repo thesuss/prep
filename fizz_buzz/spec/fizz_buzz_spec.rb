@@ -11,7 +11,7 @@ describe 'fizz_buzz' do
   end
 
   it "returns 'buzz' if number is divisible by 5" do
-    expect(fizz_buzz(10)).to eq 'Fuzz'
+    expect(fizz_buzz(10)).to eq 'Buzz'
   end
 
   it "returns 'fizz buzz' if number is divisible by 15" do
