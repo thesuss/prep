@@ -1,7 +1,9 @@
 
 <p>
     Google each and every one of the gems in the :development, :test group of your Gemfile. 
-</p><p>    
+</p>
+
+<p>    
     Try the following searches
     ruby gem capybara
     ruby launchy gem
